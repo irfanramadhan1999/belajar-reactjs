@@ -15,6 +15,9 @@ Branch ini Belajar tentang :
 
 Full Materi yang sudah dipelajari :
 <br>
+- Starter Project untuk belajar React 
+  - Branch Code : https://github.com/irfanramadhan1999/belajar-reactjs/tree/main
+  <br>
 - Membuat Card Profile dengan React JS - Styling pada React JS || Study With Me Eps.8 :
   - Branch Code : https://github.com/irfanramadhan1999/belajar-reactjs/tree/card-profile
   - Tutorial : https://www.youtube.com/watch?v=5ZIrWjxJHBw&list=PL9E3AWZAtxc6VamYdTbmQanW6RatFPT7d&index=9 
