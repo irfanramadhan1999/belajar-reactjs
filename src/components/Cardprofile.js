@@ -46,21 +46,8 @@ const Cardprofile = () => {
           {/* css inline */}
           <button className="button" style={{backgroundColor: 'yellow'}} >Contact Me</button>
         </div>
-
-        <div className="card">
-          <img src={profile} alt="" className="image-card" />
-          <div className="jobdesk"> Front End Developer </div>
-          <div className="name"> Irfan Ramadhani </div>
-          <div className="deskripsi">
-            work correctly both with client - side routing and a non - root
-            public URL.Learn how to configure a non - root public URL by running
-            `npm run build.
-          </div>
-          <button className="button">Contact Me</button>
-        </div>
       </div>
     </body>
-    // 1. Inline CSS
   );
 };
 
