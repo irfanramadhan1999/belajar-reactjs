@@ -9,7 +9,7 @@ https://www.youtube.com/@CreativeAcademyId
 
 Branch ini Belajar tentang : 
 <br>
-<b>ReactJS Setup, Instalation & membuat project pertama ReactJS Study With Me Eps.6</b>
+<b>Apa Itu Object & State React Js | Study With Me Eps.11</b>
 
 <hr>
 
@@ -26,6 +26,10 @@ Full Materi yang sudah dipelajari :
 - Tutorial Looping List pada REACT JS - List & Key | Study With Me Eps.9
   - Branch Code : https://github.com/irfanramadhan1999/belajar-reactjs/tree/looping-list
   - Tutorial : https://www.youtube.com/watch?v=RDGqaEwtM6A&list=PL9E3AWZAtxc6VamYdTbmQanW6RatFPT7d&index=10
+  <br>
+- Apa Itu Object & State React Js | Study With Me Eps.11
+  - Branch Code : https://github.com/irfanramadhan1999/belajar-reactjs/tree/object-state
+  - Tutorial : https://www.youtube.com/watch?v=ceHS2QJE-QE&list=PL9E3AWZAtxc6VamYdTbmQanW6RatFPT7d&index=12
 
 
 
