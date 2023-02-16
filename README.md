@@ -9,7 +9,7 @@ https://www.youtube.com/@CreativeAcademyId
 
 Branch ini Belajar tentang : 
 <br>
-<b>SEMUA TENTANG EVENT HANDLING pada REACT JS | Study With Me Eps.12</b>
+<b>Event & Data Handling - PROPS & STATE React JS Untuk Pemula || Study With Me Eps.5</b>
 
 <hr>
 
