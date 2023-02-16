@@ -9,7 +9,7 @@ https://www.youtube.com/@CreativeAcademyId
 
 Branch ini Belajar tentang : 
 <br>
-<b>Apa Itu Object & State React Js | Study With Me Eps.11</b>
+<b>SEMUA TENTANG EVENT HANDLING pada REACT JS | Study With Me Eps.12</b>
 
 <hr>
 
