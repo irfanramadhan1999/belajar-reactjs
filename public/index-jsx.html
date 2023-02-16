@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 1. Instalasi -->
+    <!-- CDN REACT JS -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>JSX - REACT JS</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-6 p-5">
+        <!-- <button type="button" class="btn btn-primary">Primary</button>
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <script type="text/babel">
+        
+    
+        // tanpa JSX
+        class Button extends React.Component {
+            render() {
+                const btn = React.createElement('button', {class : 'btn btn-primary'}, 'Primary Button')
+                return btn;
+            }
+        }
+
+        // tanpa JSX
+        class Cards extends React.Component {
+            render() {
+                const link = React.createElement('a', {href : '#', class : 'btn btn-primary'}, 'go Somewhere')
+                const cardText = React.createElement('p', {class : 'card-text'}, 'lorem ipsum doloret amet')
+                const cardTitle = React.createElement('h5', {class : 'card-title'}, 'ini adalah card')
+                const cardBody = React.createElement('div', {class : 'card-body'}, cardTitle, cardText, link)
+                const card = React.createElement('div', {class : 'card'}, cardBody)
+                return card;
+            }
+        }
+
+        // Menggunakan JSX
+        class Buttonjsx extends React.Component {
+            render() {
+                return <button className={"btn btn-primary"}>Primary</button>
+            }
+        }
+        //menggunakan JSX
+        class Cardsjsx extends React.Component {
+            render() {
+                const card = (
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Card title</h5>
+                            <p className="card-text">
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </p>
+                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                        </div>                     
+                    </div>
+                )
+                return card
+            }
+        }
+
+        // ReactDOM.render(<Button/>, document.getElementById('app'));
+        // ReactDOM.render(<Cards/>, document.getElementById('app'));
+        // ReactDOM.render(<Buttonjsx/>, document.getElementById('app'));
+        ReactDOM.render(<Cardsjsx/>, document.getElementById('app'));
+
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
